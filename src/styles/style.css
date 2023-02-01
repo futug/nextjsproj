@@ -532,7 +532,7 @@ figcaption	{
 	.section_wrap	{
 		display: block;
 		position: relative;
-		/* background-image: url(../img/mobile_header_pic.jpg); */
+		background-image: url(../img/mobile_header_pic.jpg);
 		background-position: bottom center;
 		background-repeat: no-repeat;
 		
