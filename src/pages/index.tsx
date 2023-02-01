@@ -64,11 +64,11 @@ export default function Home() {
               </section>
               <section className="about section" id="about">
                   <h3 className="about_title">About me</h3>
-                  <p className="about_article">Hi, I'm Denis – UX/UI designer from Minsk.
-                      I'm interested in design and everything connected with it. <br />
+                  <p className="about_article">Hi, I&rsquo;m Denis – UX/UI designer from Minsk.
+                      I&rsquo;m interested in design and everything connected with it. <br />
                       <br /><br />
-                      I'm studying at courses "Web and mobile design
-                      interfaces" in IT-Academy.<br />
+                      I&rsquo;m studying at courses &rdquo;Web and mobile design
+                      interfaces&rdquo; in IT-Academy.<br />
                       <br /><br />
                       Ready to implement excellent projects
                       with wonderful people.</p>
