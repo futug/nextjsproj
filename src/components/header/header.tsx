@@ -1,9 +1,11 @@
+import styles from './header.module.css';
+import cx from 'classnames';
 export function Header()  {
     return (
         <>
-                  <header className="header_background">
-              <nav className="header_nav">
-                  <ul className="header_navlinks wrap">
+                  <header className={styles.header_background}>
+              <nav className={styles.header_nav}>
+                  <ul className={cx(styles.header_navlinks, styles.wrap)}>
                       <li>
                           <a href="#home" className="s1-link">Home</a>
                       </li>
@@ -20,13 +22,13 @@ export function Header()  {
                           <a href="#contacts" className="s1-link kek">Cotnacts</a>
                       </li>
                   </ul>
-                  <div className="header_nav_close">
-                      <div className="header_nav_close_stripe">
+                  <div className={"header_nav_close"}>
+                      <div className={"header_nav_close_stripe"}>
                       </div>
                   </div>
-                  <div className="lang_choice_main_mobile">
+                  <div className={"lang_choice_main_mobile"}>
                       <span>
-                          <a href="#!" className="lang_choice ru">ru</a> <span className="lang_choice ru">|</span> <a href="#!" className="lang_choice eng">eng</a>
+                          <a href="#!" className={cx(styles.lang_choice,styles.ru)}>ru</a> <span className={cx(styles.lang_choice,styles.ru)}>|</span> <a href="#!" className={cx(styles.lang_choice,styles.eng)}>eng</a>
                       </span>
                   </div>
               </nav>
