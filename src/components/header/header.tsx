@@ -33,6 +33,10 @@ export function Header()  {
                   </div>
               </nav>
           </header>
+          <div className={styles.burger_menu}>
+                  <div className={styles.burger_menu_stripe}>
+                  </div>
+              </div>
         </>
     )
 }

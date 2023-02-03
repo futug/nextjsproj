@@ -1,0 +1,25 @@
+.wrap   {
+    max-width: 940px;
+    margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.section_wrap	{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 2fr;
+	height: 768px;
+	align-items: center;
+	margin-bottom: 104px;
+	
+	
+}
+
+.about	{
+	display: block;
+	height: 500px;
+	background-color: #F6F6F6;
+	width: 100%;
+	/*position: relative;*/
+}

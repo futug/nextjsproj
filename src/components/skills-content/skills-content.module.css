@@ -1,0 +1,30 @@
+.skill_pic	{
+	height: 89px;
+	width: 89px;
+}
+.skill_pic_f	{
+	height: 89px;
+	width: 58px;
+}
+.describe	{
+	font-family: 'Gilroy-Bold';
+	font-size: 14px;
+	line-height: 17px;
+	width: 80px;
+	color: #828282;
+	padding-top: 24px;
+}
+
+.skills_score	{
+	height: 26px;
+	width: 166.5px;
+	padding-top: 41px;
+	padding-bottom: 110px;
+}
+
+.skills_score_f	{
+	height: 26px;
+	width: 166.5px;
+	padding-top: 57px;
+
+}
