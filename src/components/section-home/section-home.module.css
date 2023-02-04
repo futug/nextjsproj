@@ -5,6 +5,8 @@
 	padding-right: 30px;
 }
 
+
+
 .section_wrap	{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -12,8 +14,6 @@
 	height: 768px;
 	align-items: center;
 	margin-bottom: 104px;
-	
-	
 }
 
 .header_title	{

@@ -12,7 +12,7 @@ export function SectionHome() {
                           <a href="" className={cx(styles.lang_choice,styles.ru)}>ru</a> <span className={cx(styles.lang_choice,styles.ru)}>|</span> <a href="" className={cx(styles.lang_choice,styles.eng)}>eng</a>
                       </span>
                   </div>
-                  <div className="header_pic">
+                  <div className={styles.header_pic}>
                       <img className="header_picture" src="./header_pic.jpg" alt="" />
                   </div>
               </section>
