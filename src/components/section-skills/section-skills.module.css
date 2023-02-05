@@ -65,3 +65,22 @@
 	padding-top: 57px;
 
 }
+
+@media screen and (max-width: 974px) {
+	.skills_grid	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.skills_grid	{
+		display: grid;
+		grid-template-columns: 1fr;	
+	}
+
+	.skills_score_f	{
+		padding-bottom: 98px;
+	}
+
+}

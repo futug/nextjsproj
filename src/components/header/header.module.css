@@ -47,4 +47,136 @@
 
 
 
+@media screen and (max-width: 974px) {
+	.header_nav	{
+		max-width: 768px;
+	}
+	
+}
 
+@media screen and (max-width: 768px) {
+	
+	.section_wrap	{
+		display: block;
+		position: relative;
+		background-image: url('/mobile_header_pic.jpg');
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		
+	}
+	.header_title	{
+		font-size: 47px;
+		line-height: 58px;
+		height: 106px;
+		width: 124px;
+		position: absolute;
+		top:0px;
+		left:0;
+		padding-left: 26px;
+	}
+
+	.header_subtitle	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		
+	}
+	.burger_menu	{
+		display: block;
+		position: fixed;
+		top: 53px;
+		right: 0;
+		padding-right: 26px;
+		z-index: 9;
+		
+	}
+	.header_picture	{
+		display: none;
+	}
+
+	.lang_choice_main	{
+		display:none;
+	}
+	.header_nav {
+		display:none;
+	}
+
+	.header_subtitle {
+		height: 44px;
+		width: 155px;
+		font-size: 18px;
+		line-height: 22px;
+		position: absolute;
+		top: 85px;
+		left:0;
+		padding-left: 26px;
+		text-justify: none;	
+		font-family: 'Gilroy-Medium';
+		padding-top: 23px;
+}
+
+	.header_nav	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		position: fixed;
+		z-index: 99;
+		transform: translateX(100%);
+		transition: .3s all linear;
+	}
+
+	.header_nav_active {
+		transform: translateX(0);
+	}
+
+	.header_navlinks	{
+		display: block;
+		/* position: relative; */
+		grid-column: 1/2;
+		grid-row: 1/2;
+		padding-left: 26px;
+		width: 100%;
+	}
+
+	.header_nav::after {
+		display: none;
+	}
+
+
+	.header_nav_close	{
+		display: block;
+		grid-column: 2/3;
+		/* grid-row: 1/2; */
+		padding-right: 26px;
+		top: 13px;
+		justify-self: end;
+	}
+	
+	.lang_choice_main_mobile {
+		display: block;
+		width: 100%;
+		/* transform: rotate(-90deg) ; */
+		align-self: center;
+		transform: rotate(90deg) translateY(-50px);
+		grid-column: 2/3;
+		justify-self: end;
+		right: 0;
+	}
+
+	.lang_choice	{
+		font-family: 'Gilroy-Bold';
+		font-size: 34px;
+		line-height: 42px;
+		width: 65px;
+		text-decoration: none;
+		color: #828282;
+		text-transform: uppercase;
+		align-self: center;
+
+}	
+}
